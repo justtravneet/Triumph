@@ -3,16 +3,24 @@
 @tailwind utilities;
 #root {
   margin: 0 auto;
+  
+  sidebtn{
+      background-color: #076df2;
+  }
 }
-@media screen and (min-width:1024px){
+@media screen and (min-width:1041px){
   .searchicon{
     display: none;
   }
   .menuicon{
     display: none;
  }
+ .slideback{
+  display: none;
 }
-@media screen and (max-width:1024px) {
+
+}
+@media screen and (max-width:1040px) {
 
  .menu{
   display: none;
@@ -26,6 +34,20 @@
     box-shadow: 0px 2px 3px rgba(173, 216, 230, 0.742);
     
   }
+  
+}
+.slideback{
+  background-color: #f4f4f4;
+  margin-left: px;
+}
+.sidebtn{
+  background:white;
+  border-radius:0px 10px 0px 10px;
+  box-shadow: 0px 3px 5px 2px lightblue;
+  transition: 0.3s;
+}
+.sidebtn:hover{
+  transform: scale(1.1);
 }
 .exclusive{
   background: #3889F2;
@@ -49,5 +71,25 @@
   background-color: #0554F2;
 }
 .info{
+  color: white;
+}
+.doorsbtn{
+  outline: 0.5px solid rgba(0, 0, 0, 0.212);
+  transition: 0.3s;
+}
+.indoorbtn{
+  color: #0554F2;
+  transition: 0.3s;
+}
+.indoorbtn:hover{
+  background-color: #0554F2;
+  color: white;
+}
+.outdoorbtn{
+  color: #0554F2;
+  transition: 0.3s;
+}
+.outdoorbtn:hover{
+  background-color: #0554F2;
   color: white;
 }
