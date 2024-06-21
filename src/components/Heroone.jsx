@@ -4,12 +4,12 @@ const Heroone = () => {
   return (
     <div>
           {/* Exclusive */}
-          <div className='exclusive flex items-center justify-center gap-[2px] md:gap-[4px] md:py-[3px]  '>
+          <div className='exclusive flex items-center justify-center gap-[2px] py-[3px] md:gap-[4px] md:py-[3px]  '>
                  <div>
-                     <Megaphone size={20} strokeWidth={1} color="#fcf8f8" />
+                     <Megaphone size={25} strokeWidth={1.5} color="#fcf8f8" />
                  </div>
                  <div>
-                     <p className='text-[10px] text-white'>Get exclusive deals upto <span className=' font-semibold'>25%</span> </p>
+                     <p className='text-[14px] text-white'>Get exclusive deals upto <span className=' font-semibold'>25%</span> </p>
                  </div>
           </div>
           
@@ -17,15 +17,15 @@ const Heroone = () => {
           <div className='navback bg-white '>
                 <div className='px-[10px] py-[5px] sm:px-[25px] sm:py-[5px] md:px-[35px] lg:px-[65px] xl:px-[100px] 2xl:justify-center 2xl:gap-[100px] flex items-center justify-between'>
                       <div>
-                            <img   className='w-[120px] sm:w-[150px] lg:w-[190px]' src="./public/logo.png" alt="" />
+                            <img   className='w-[150px] sm:w-[180px] lg:w-[220px]' src="logo.png" alt="" />
                       </div>
 
                       <div className='menu'>
                            <ul className='flex gap-[25px]  mr-[0px]  tracking-wider'>
-                               <li><a href="http://" className='info text-[13px] '>Home</a></li>
-                               <li><a href="http://" className='info text-[13px]'>Shop</a></li>
-                               <li><a href="http://"className='info text-[13px] '>Contact Us</a></li>
-                               <li><a href="http://" className='info text-[13px] '>About Us</a></li>
+                               <li><a href="http://" className='info text-[16px] '>Home</a></li>
+                               <li><a href="http://" className='info text-[16px]'>Shop</a></li>
+                               <li><a href="http://"className='info text-[16px] '>Contact Us</a></li>
+                               <li><a href="http://" className='info text-[16px] '>About Us</a></li>
                            </ul>
                       </div>
 
@@ -42,17 +42,17 @@ const Heroone = () => {
 
                       <div className='flex gap-[15px]'>
                             <div className='searchicon'>
-                                 <Search className='w-[18px] sm:w-[22px] lg:w-[24px]' color='#ffffff' strokeWidth={1.5} />
+                                 <Search className='w-[22px] sm:w-[28px] lg:w-[32px]' color='#ffffff' strokeWidth={1.5} />
                              </div>
                              <div>
-                                <Heart className='w-[18px] sm:w-[22px] lg:w-[24px]' color='#ffffff'  strokeWidth={1.5} />
+                                <Heart className='w-[22px] sm:w-[28px] lg:w-[32px]' color='#ffffff'  strokeWidth={1.5} />
                              </div>
                              <div>
-                                <ShoppingBag className='w-[18px] sm:w-[22px] lg:w-[24px]' color='#ffffff'  strokeWidth={1.5} />
+                                <ShoppingBag className='w-[22px] sm:w-[28px] lg:w-[32px]' color='#ffffff'  strokeWidth={1.5} />
                              </div>
 
                                <div className='menuicon'>
-                                <AlignJustify size={25} className='  px-[1px] py-[2px] rounded-md' color='#ffffff'  strokeWidth={1.5} />
+                                <AlignJustify size={26} className=' border  px-[1px] py-[2px] rounded-md' color='#ffffff'  strokeWidth={1.5} />
                               </div>
                       </div>
 
