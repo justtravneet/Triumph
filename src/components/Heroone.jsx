@@ -17,7 +17,7 @@ const Heroone = () => {
           <div className='navback bg-white '>
                 <div className='px-[10px] py-[5px] sm:px-[25px] sm:py-[5px] md:px-[35px] lg:px-[65px] xl:px-[100px] 2xl:justify-center 2xl:gap-[100px] flex items-center justify-between'>
                       <div>
-                          <img className='w-[120px] sm:w-[150px] lg:w-[190px]' src="./public/vite.svg" alt="" />
+                          <img className='w-[120px] sm:w-[150px] lg:w-[190px]' src="./public/logo1.png" alt="" />
                       </div>
 
                       <div className='menu'>
