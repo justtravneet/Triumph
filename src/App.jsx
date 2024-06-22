@@ -4,6 +4,7 @@ import Heroone from './components/Heroone'
 import './index.css'
 import Herotwo from './components/Herotwo'
 import Herothree from './components/Herothree'
+import Herolast from './components/Herolast'
 
 
 
@@ -16,6 +17,7 @@ function App() {
         <Heroone />
          {/* <Herotwo /> */}
          <Herothree />
+         <Herolast />
         
     </>
   )

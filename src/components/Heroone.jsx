@@ -35,8 +35,8 @@ function Heroone (){
                       </div>
 
                       <div className='inputback w-[350px] flex gap-[5px] items-center justify-between'>
-                           <div className='inputs'>
-                              <input className='searchbar' type="text" placeholder='Search products' />
+                           <div className='inputs '>
+                              <input className='searchbar rounded-md' type="text" placeholder='Search products' />
                            </div>
                            <div>
                               <Search className=' w-[18px] ' color='#ffffff' strokeWidth={1.5} />

@@ -10,13 +10,13 @@ const Herothree = () => {
            <div className='banner w-[100%] '>
                  <Carousel >
                           <div className='ban'>
-                               <img className='' src="back.jpg" alt="" />
-                              
+                              <img className='' src="back.jpg" alt="" />
                           </div>
+
                           <div className='ban'>
-                               <img className='' src="back.jpg" alt="" />
-                               
+                             <img className='' src="back.jpg" alt="" />
                           </div>
+
                           <div className='ban'>
                             <img className='' src="back.jpg" alt="" />
                           </div>
