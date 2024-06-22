@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {Megaphone,AlignJustify,Search,Heart,ShoppingBag} from "lucide-react"
 import Slide from './Slide'
 function Heroone (){
-    const[status,setstatus] = useState(true)
+    const[status,setstatus] = useState(false)
   return (
     <div>
           {/* Exclusive */}
@@ -70,6 +70,7 @@ function Heroone (){
                   
                   {
                         status ?  <Slide />  : null
+                  
                   }
                     
                      
