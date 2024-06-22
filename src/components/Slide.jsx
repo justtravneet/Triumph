@@ -6,7 +6,7 @@ const Slide = () => {
     <div>
        
             
-         <motion.div  className='sidenav w-[220px] sm:w-[290px] md:w-[320px]'
+         <motion.div  className='sidenav bg-white w-[220px] sm:w-[290px] md:w-[320px]'
             initial={{x: -250}}
             animate={{x: 0}}
             transition={{

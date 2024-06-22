@@ -1,18 +1,29 @@
 import React from 'react'
-import Accordion from 'react-bootstrap/Accordion';
+
+import {Carousel} from 'antd';
 const Herothree = () => {
-  var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
+  
   return (
+    
     <div>
-        <div>
-                
-        </div>
+        
+           <div className='banner w-[100%] '>
+                 <Carousel >
+                          <div className='ban'>
+                               <img className='' src="back.jpg" alt="" />
+                              
+                          </div>
+                          <div className='ban'>
+                               <img className='' src="back.jpg" alt="" />
+                               
+                          </div>
+                          <div className='ban'>
+                            <img className='' src="back.jpg" alt="" />
+                          </div>
+
+                </Carousel>
+           </div>
+        
     </div>
   )
 }

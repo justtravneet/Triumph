@@ -57,7 +57,7 @@ function Heroone (){
                              </div>
 
                                <div className='menuicon ' onClick={()=> setstatus(!status)}  >
-                                <AlignJustify size={28} className=' border  px-[1px] py-[2px] rounded-md' color='#ffffff'  strokeWidth={1.5} />
+                                <AlignJustify size={28} className=' ' color='#ffffff'  strokeWidth={1.5} />
                               </div>
 
                       </div>
