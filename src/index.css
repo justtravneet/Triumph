@@ -18,6 +18,9 @@
  .slideback{
   display: none;
 }
+.sidenav{
+  display: none;
+}
 
 }
 @media screen and (max-width:1040px) {
@@ -36,10 +39,18 @@
   }
   
 }
-.slideback{
-  background-color: #f4f4f4;
-  margin-left: px;
+.sidenav{
+  border-radius: 0px 0px 10px 0px;
+  box-shadow: 0px 0px 5px 2px rgba(173, 216, 230, 0.676);
+  
 }
+
+.intext:hover{
+  color: white;
+  background-color: #3889f290;
+   transition: 0.3s;
+}
+
 .sidebtn{
   background:white;
   border-radius:0px 10px 0px 10px;
@@ -73,23 +84,31 @@
 .info{
   color: white;
 }
-.doorsbtn{
-  outline: 0.5px solid rgba(0, 0, 0, 0.212);
-  transition: 0.3s;
+.banner{
+  
 }
-.indoorbtn{
-  color: #0554F2;
-  transition: 0.3s;
+.slides{
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  
 }
-.indoorbtn:hover{
-  background-color: #0554F2;
+
+.prev ,.next{
+  width: 2rem;
+  justify-content: center;
+  display: flex;
   color: white;
 }
-.outdoorbtn{
-  color: #0554F2;
-  transition: 0.3s;
+::-webkit-scrollbar{
+  display: none;
 }
-.outdoorbtn:hover{
-  background-color: #0554F2;
+.addtocart-btn{
+  background-color:#3889f2d5;
   color: white;
+  box-shadow: 0px 2px 5px 1px lightblue;
+}
+.cardback{
+  box-shadow: 0px 2px 5px 1px lightblue;
+   padding: 10px;
 }

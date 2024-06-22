@@ -66,14 +66,14 @@ function Heroone (){
                 </div>
          </div>
 
-                {/* <div>
+                <div>
                   
                   {
                         status ?  <Slide />  : null
                   }
                     
                      
-                </div> */}
+                </div>
 
      </div>
     </div>

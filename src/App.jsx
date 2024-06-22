@@ -6,6 +6,8 @@ import Herotwo from './components/Herotwo'
 import Herothree from './components/Herothree'
 
 
+
+
 function App() {
   
 
@@ -14,6 +16,7 @@ function App() {
         <Heroone />
          {/* <Herotwo /> */}
          <Herothree />
+        
     </>
   )
 }

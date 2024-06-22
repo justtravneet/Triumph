@@ -1,22 +1,41 @@
-import React from 'react'
-
+import React ,{useState} from 'react'
+import {ChevronLeft , ChevronRight } from "lucide-react"
+import bg1 from "/public/back.jpg"
+import bg2 from "/public/6003842.jpg"
+import bg3 from "/public/1653.jpg"
 const Herotwo = () => {
+  
+
+  const images = [bg1,bg2 ,bg2]
+
+ const [slides ,setslides]= useState(0);
+ const next = () =>{
+    setslides(slides ===2? 0 : slides + 1)
+ }
+
+ const prev = () =>{
+  setslides(slides ===0? 2  : slides - 1)
+ }
+
   return (
-    <div className=' bg-slate-300 w-[100%] flex flex-col justify-center'>
-         <div className='w-[90%] '>
-                <div>
-                     <img src="https://img.freepik.com/free-vector/realistic-cyber-monday-twitter-header_23-2149816807.jpg?t=st=1718998961~exp=1719002561~hmac=7d90fbc4236c687688b348a79f97bd900edab8c1f926564d93b9277bf508122d&w=1060" alt="" />
-                </div>
+    <div>
+          <div className='content w-[100%] h-[180px]'>
+                 
+                 <div className='slides ' >
+                      <img src={images[slides] } alt="" />
+                 </div>
 
-                <div>
-                     <img src="https://img.freepik.com/free-vector/realistic-cyber-monday-twitter-header_23-2149816807.jpg?t=st=1718998961~exp=1719002561~hmac=7d90fbc4236c687688b348a79f97bd900edab8c1f926564d93b9277bf508122d&w=1060" alt="" />
-                </div>
+                 <div className='flex justify-between '>
+                     <div className='prev' onClick={prev} >
+                        <ChevronLeft />
+                      </div>
+                      <div className='next'  onClick={next} >
+                      <ChevronRight />
+                     </div>
+                 </div>
+                 
+          </div>
 
-
-                <div>
-                     <img src="https://img.freepik.com/free-vector/realistic-cyber-monday-twitter-header_23-2149816807.jpg?t=st=1718998961~exp=1719002561~hmac=7d90fbc4236c687688b348a79f97bd900edab8c1f926564d93b9277bf508122d&w=1060" alt="" />
-                </div>
-         </div>
     </div>
   )
 }

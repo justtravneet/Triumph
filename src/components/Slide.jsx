@@ -1,31 +1,47 @@
 import React from 'react'
 import {ChevronRight} from "lucide-react"
+import {motion} from "framer-motion"
 const Slide = () => {
   return (
-    <div  >
-         <div >
-            <div className='slideback fixed flex flex-col gap-[20px] py-[30px] px-[10px] rounded-lg mt-[5px]   w-[70%]'>
-              <div className='sidebtn flex justify-between items-center py-[5px] w-[180px] ml-[10px]'>
-                    <div><p className=' text-[18px] ml-[12px] '>Home</p></div>
-                    <div><ChevronRight /></div>
-              </div>
-              <div className='sidebtn  flex justify-between items-center py-[5px] w-[180px] ml-[10px] '>
-                    <div><p className=' text-[18px] ml-[12px] '>Shop</p></div>
-                    <div><ChevronRight /></div>
-              </div>
-              <div className='sidebtn  flex justify-between items-center py-[5px] w-[180px]  ml-[10px]'>
-                    <div><p className=' text-[18px] ml-[12px]'>Contact Us</p></div>
-                    <div><ChevronRight /></div>
-              </div>
-              <div className='sidebtn  flex justify-between items-center py-[5px] w-[180px] ml-[10px]'>
-                    <div><p className=' text-[18px] ml-[12px]'>About Us</p></div>
-                    <div><ChevronRight /></div>
-              </div>
-            </div>
-
+    <div>
+       
             
-               
-         </div>
+         <motion.div  className='sidenav w-[220px] sm:w-[290px] md:w-[320px]'
+            initial={{x: -250}}
+            animate={{x: 0}}
+            transition={{
+                  ease: "linear",
+                  duration: 1,
+                  x: { duration: 0.5 }
+                }}
+         >
+             
+             <div>
+                  <img src="back.jpg" alt="" />
+             </div>
+
+              <div className='intext px-[20px] sm:px-[30px]  flex justify-between py-[10px] border '>
+                     <div><p className=''>Home</p></div>
+                     <div><ChevronRight /></div>
+              </div>
+
+              <div className='intext px-[20px] sm:px-[30px] flex justify-between py-[10px] border'>
+                     <div><p>Shop</p></div>
+                     <div><ChevronRight /></div>
+              </div>
+
+              <div className='intext px-[20px] sm:px-[30px] flex justify-between py-[10px] border'>
+                     <div><p>Contact Us</p></div>
+                     <div><ChevronRight /></div>
+              </div>
+
+              <div className='intext px-[20px] sm:px-[30px] flex justify-between py-[10px] border'>
+                     <div><p>About Us</p></div>
+                     <div><ChevronRight /></div>
+              </div>
+
+         </motion.div>
+      
     </div>
   )
 }
