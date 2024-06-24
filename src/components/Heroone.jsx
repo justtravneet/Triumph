@@ -27,10 +27,10 @@ function Heroone (){
 
                       <div className='menu'>
                            <ul className='flex gap-[25px]  mr-[0px]  tracking-wider'>
-                               <li><a href="http://" className='info text-[16px] '>Home</a></li>
-                               <li><a href="http://" className='info text-[16px]'>Shop</a></li>
-                               <li><a href="http://"className='info text-[16px] '>Contact Us</a></li>
-                               <li><a href="http://" className='info text-[16px] '>About Us</a></li>
+                               <li><a href="http://" className='info text-[16px] '> <p>Home</p></a></li>
+                               <li><a href="http://" className='info text-[16px]'> <p>Shop</p></a></li>
+                               <li><a href="http://"className='info text-[16px] '> <p>Contact Us</p></a></li>
+                               <li><a href="http://" className='info text-[16px] '> <p>About Us</p></a></li>
                            </ul>
                       </div>
 
