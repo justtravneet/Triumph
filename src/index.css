@@ -147,8 +147,20 @@
 }
 .outdoor{
   overflow-x: scroll;
-
+  scroll-behavior: smooth;
 }
 .images:hover{
   background-image: url(https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/N/a/4841_1469191371.jpg);
 }
+.pics{
+  border-radius: 10px 10px 10px 10px;
+}
+.cardsback{
+  margin-top: 30px;
+  background-color: #076df2;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.189);
+}
+.imgborder{
+  border-radius: 10px 10px 0px 0px ;
+}
+

@@ -2,11 +2,13 @@ import { useState } from 'react'
 import Heroone from './components/Heroone'
 
 import './index.css'
-import Herotwo from './components/Herotwo'
+
 import Herothree from './components/Herothree'
+import Herolast from './components/Herolast'
 
 import Herocounter from './components/Herocounter'
-import Herooutdoor from './components/Herooutdoor'
+import Herocard from './components/Herocard'
+
 
 
 
@@ -19,10 +21,11 @@ function App() {
   return (
     <>
         <Heroone />
-         {/* <Herotwo /> */}
+     
          <Herothree />
-         <Herooutdoor />
+         <Herocard />
          <Herocounter />
+         <Herolast />
          
     
         
