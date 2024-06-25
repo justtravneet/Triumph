@@ -145,3 +145,10 @@
 .fade{
   color: #f2f2f2c8;
 }
+.outdoor{
+  overflow-x: scroll;
+
+}
+.images:hover{
+  background-image: url(https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/N/a/4841_1469191371.jpg);
+}

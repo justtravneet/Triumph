@@ -8,7 +8,7 @@ const Herothree = () => {
     <div>
         
            <div className='banner w-[100%] '>
-                 <Carousel >
+                 <Carousel autoplay>
                           <div className='ban'>
                               <img className='' src="back.jpg" alt="" />
                           </div>

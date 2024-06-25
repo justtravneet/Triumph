@@ -4,9 +4,10 @@ import Heroone from './components/Heroone'
 import './index.css'
 import Herotwo from './components/Herotwo'
 import Herothree from './components/Herothree'
-import Herolast from './components/Herolast'
+
 import Herocounter from './components/Herocounter'
-import Heroflex from './components/Heroflex'
+import Herooutdoor from './components/Herooutdoor'
+
 
 
 
@@ -20,10 +21,11 @@ function App() {
         <Heroone />
          {/* <Herotwo /> */}
          <Herothree />
-         <Heroflex />
+         <Herooutdoor />
          <Herocounter />
+         
     
-         <Herolast />
+        
         
     </>
   )
