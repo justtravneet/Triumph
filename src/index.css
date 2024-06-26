@@ -164,3 +164,41 @@
   border-radius: 10px 10px 0px 0px ;
 }
 
+.addbtn{
+  padding: 2px 6px 2px 6px;
+  background-color:black;
+  color: white;
+}
+
+.card-imageback{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3889f2bd;
+  border-radius:10px 10px 0px 0px;
+}
+.addbutton{
+  background-color:  #3889f2ef;
+  color: #f2f2f2;
+  border-radius:0px 0px 10px 10px;
+}
+.outdoor-back{
+ 
+ 
+ 
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.lights-image{
+  border-radius: 10px;
+}
+.card-image{
+  object-fit: cover;
+  border-radius: 10px;
+}
+.card-container{
+  
+  border-radius: 10px;
+  background-color: rgba(247, 246, 246, 0.897);
+  box-shadow: 0px 1px 5px 1px rgba(33, 33, 33, 0.354);
+}

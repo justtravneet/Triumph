@@ -8,6 +8,7 @@ import Herolast from './components/Herolast'
 
 import Herocounter from './components/Herocounter'
 import Herocard from './components/Herocard'
+import Herocardtwo from './components/Herocardtwo'
 
 
 
@@ -23,9 +24,10 @@ function App() {
         <Heroone />
      
          <Herothree />
-         <Herocard />
-         <Herocounter />
-         <Herolast />
+         {/* <Herocard /> */}
+         <Herocardtwo />
+         {/* <Herocounter /> */}
+         {/* <Herolast /> */}
          
     
         
