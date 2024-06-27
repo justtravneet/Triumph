@@ -3,7 +3,7 @@ import React from 'react'
 const Herolast = () => {
   return (
     <div>
-           <div className='footerback flex justify-between flex-wrap px-[10px] py-[5px] sm:px-[25px] sm:py-[5px] md:px-[35px] lg:px-[65px] xl:px-[100px] 2xl:justify-center 2xl:gap-[100px] '>
+           <div className='footerback flex gap-[5px] justify-between  px-[10px] py-[5px] sm:px-[25px] sm:py-[5px] md:px-[35px] lg:px-[65px] xl:px-[100px] 2xl:justify-center 2xl:gap-[100px] '>
                   <div className='flex flex-col gap-[10px] py-[15px] lg:py-[20px]'>
                          <div>
                              <img className='w-[80px] sm:w-[110px] md:w-[130px] lg:w-[160px]' src="logo.png" alt="" />
@@ -34,39 +34,17 @@ const Herolast = () => {
                                            </div>
                                      </div>
 
-                                     <div className='flex gap-[4px]'>
-                                           <div><img className='w-[12px] sm:w-[15px] md:w-[17px]  lg:w-[20px]' src="clock.png" alt="" /></div>
-                                           <div>
-                                               <p className='text-[8px] sm:text-[9px] md:text-[11px]  lg:text-[13px] text-white'>Mon-Sun 10:00 AM TO 8:00 PM</p>  
-                                           </div>
-                                     </div>
+                                     
                                </div>
                                
                          </div>
                   </div>
 
-                   {/* 2DIV */}
+                   
 
-                  <div className='px-[5px] py-[15px]'>
-                     
-                         <div className='mt-[5px] '>
-                            <p className='text-[10px] sm:text-[13px] md:text-[15px] lg:text-[17px] text-white'>Shop With Category</p>
-                         </div>
+                 
 
-                         <div className='mt-[8px]'>
-                             <ul className='flex flex-col gap-[3px] '>
-                                 <li className='fade  text-[9px] sm:text-[11px] md:text-[13px] lg:text-[15px] text-white'>Televison</li>
-                                 <li className='fade text-[9px] sm:text-[11px]  md:text-[13px] lg:text-[15px] text-white'>Televison</li>
-                                 <li className='fade text-[9px] sm:text-[11px] md:text-[13px] lg:text-[15px] text-white'>Televison</li>
-                                 <li className='fade text-[9px] sm:text-[11px] md:text-[13px] lg:text-[15px] text-white'>Televison</li>
-                                 <li className='fade text-[9px] sm:text-[11px] md:text-[13px] lg:text-[15px] text-white'>Televison</li>
-                                 <li className='fade text-[9px] sm:text-[11px] md:text-[13px] lg:text-[15px] text-white'>Televison</li>
-                             </ul>
-                         </div>
-                     
-                  </div>
-
-                  {/* 3div */}
+                  {/* 2div */}
 
 
                   <div className='px-[5px] py-[15px]'>
@@ -87,7 +65,7 @@ const Herolast = () => {
                        
                   </div>
 
-                  {/* 4div */}
+                  {/* 3div */}
 
                   <div className='flex flex-col px-[5px]  py-[15px] gap-[5px]'>
                          <div className='mt-[5px] '>
@@ -105,6 +83,14 @@ const Herolast = () => {
                                  </div>
 
                                 
+                         </div>
+
+                         <div className='flex' >
+                              <div><img className='w-[30px] md:w-[40px]' src="googlepay.png" alt="" /></div>
+                              <div><img className='w-[30px] md:w-[40px]' src="googlepay.png" alt="" /></div>
+                              <div><img className='w-[30px] md:w-[40px]' src="googlepay.png" alt="" /></div>
+                              <div><img className='w-[30px] md:w-[40px] ' src="googlepay.png" alt="" /></div>
+                              <div><img className='w-[30px] md:w-[40px]' src="googlepay.png" alt="" /></div>
                          </div>
 
                          

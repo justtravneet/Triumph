@@ -20,7 +20,7 @@ function Heroone (){
       <div>
 
          <div className='navback bg-white  sticky'>
-                <div className='px-[10px] py-[5px] sm:px-[25px] sm:py-[5px] md:px-[35px] lg:px-[65px] xl:px-[100px] 2xl:justify-center 2xl:gap-[100px] flex items-center justify-between'>
+                <div className='  px-[10px] py-[5px] sm:px-[25px] sm:py-[5px] md:px-[35px] lg:px-[65px] xl:px-[100px] 2xl:justify-center 2xl:gap-[100px] flex items-center justify-between'>
                       <div>
                             <img   className='w-[150px] sm:w-[180px] lg:w-[220px]' src="logo.png" alt="" />
                       </div>

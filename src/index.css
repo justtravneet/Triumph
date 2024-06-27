@@ -169,36 +169,35 @@
   background-color:black;
   color: white;
 }
-
-.card-imageback{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #3889f2bd;
-  border-radius:10px 10px 0px 0px;
-}
-.addbutton{
-  background-color:  #3889f2ef;
-  color: #f2f2f2;
-  border-radius:0px 0px 10px 10px;
-}
-.outdoor-back{
- 
- 
- 
+.card-backs{
   overflow-x: scroll;
-  scroll-behavior: smooth;
 }
-.lights-image{
-  border-radius: 10px;
+.card-conatiner{
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.142);
+  transition: 0.3s;
+  border-radius: 10px 10px 10px 10px;
 }
-.card-image{
+.card-conatiner:hover{
+  box-shadow: 1px 2px 25px 2px rgba(0, 0, 0, 0.374);
+ 
+}
+.button{
+  background-color: #076df2;
+  border-radius: 0px 0px 10px 10px;
+ 
+}
+.button button{
+  transition: 0.5s;
+}
+.button button p:hover{
+  transform: scale(1.2);
+}
+
+.class-imageholder img{
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
 }
-.card-container{
+.class-imageholder img:hover{
+  object-fit: cover;
   
-  border-radius: 10px;
-  background-color: rgba(247, 246, 246, 0.897);
-  box-shadow: 0px 1px 5px 1px rgba(33, 33, 33, 0.354);
 }
