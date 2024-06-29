@@ -7,7 +7,10 @@ import Herothree from './components/Herothree'
 import Herolast from './components/Herolast'
 
 import Herocounter from './components/Herocounter'
-import Herocard from './components/Herocard'
+
+
+import Heroflex from './components/Heroflex'
+import Herobutton from './components/Herobutton'
 import Herooutdoor from './components/Herooutdoor'
 
 
@@ -22,14 +25,14 @@ function App() {
 
   return (
     <>
-        <Heroone />
-     
+         <Heroone />
          <Herothree />
+         <Herobutton />
          <Herooutdoor />
-        
-        
-         <Herocounter />
-         <Herolast />
+         
+         <Heroflex />
+         {/* <Herocounter />
+         <Herolast /> */}
          
     
         
