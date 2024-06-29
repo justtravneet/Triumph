@@ -1,6 +1,5 @@
 import React from 'react'
 import { motion } from "framer-motion";
-import Herocards from './Herocards';
 
 
 const Herobutton = () => {
@@ -14,14 +13,8 @@ const Herobutton = () => {
                <div><button  className='py-[8px] px-[10px] bg-slate-300 tracking-wider rounded-xl'><p className='text-[13px] tracking-wider'>Outdoor Lights</p></button></div>
         </div>
 
-        <div>
-            <Herocards />
-        </div>
-
         
        
-          
-      
 
          
     </div>

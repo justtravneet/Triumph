@@ -11,6 +11,7 @@ import Herocounter from './components/Herocounter'
 
 import Heroflex from './components/Heroflex'
 import Herobutton from './components/Herobutton'
+import Herocards from './components/Herocards'
 
 
 
@@ -28,6 +29,7 @@ function App() {
          <Heroone />
          <Herothree />
          <Herobutton />
+         <Herocards />
          <Heroflex />
          <Herocounter />
          <Herolast />
