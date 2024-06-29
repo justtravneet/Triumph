@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Herooutdoor = () => {
+const Herocards = () => {
     const data =[
         {
             name:"Boat Heaphones",
@@ -77,4 +77,4 @@ const Herooutdoor = () => {
   )
 }
 
-export default Herooutdoor
+export default Herocards

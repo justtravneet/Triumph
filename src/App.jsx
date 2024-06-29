@@ -11,7 +11,7 @@ import Herocounter from './components/Herocounter'
 
 import Heroflex from './components/Heroflex'
 import Herobutton from './components/Herobutton'
-import Herooutdoor from './components/Herooutdoor'
+
 
 
 
@@ -28,11 +28,9 @@ function App() {
          <Heroone />
          <Herothree />
          <Herobutton />
-         <Herooutdoor />
-         
          <Heroflex />
-         {/* <Herocounter />
-         <Herolast /> */}
+         <Herocounter />
+         <Herolast />
          
     
         
