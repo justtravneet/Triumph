@@ -22,12 +22,12 @@ const Contactus = () => {
                          <div className='flex flex-col gap-[8px]'>
                               <div>
                                   <label htmlFor=""><p className='text-[11px] '>First Name</p></label>
-                                  <Input className='h-[22px] w-[150px] text-[9px]' placeholder="Outlined" />
+                                  <Input className='h-[22px]  text-[9px]' placeholder="Outlined" />
                               </div>
 
                               <div>
                                   <label htmlFor=""><p className='text-[11px]'>Last Name</p></label>
-                                  <Input className='h-[22px] w-[150px] text-[9px]' placeholder="Outlined" />
+                                  <Input className='h-[22px]  text-[9px]' placeholder="Outlined" />
                               </div>
 
                          </div>
@@ -35,12 +35,12 @@ const Contactus = () => {
                          <div className='flex flex-col gap-[8px]'>
                               <div>
                                  <label htmlFor=""><p className='text-[11px]'>Email Address</p></label>
-                                 <Input className='h-[22px] w-[180px] text-[9px]' placeholder="Outlined" />
+                                 <Input className='h-[22px]  text-[9px]' placeholder="Outlined" />
                               </div>
 
                               <div>
                                  <label htmlFor=""><p className='text-[11px]'>Description</p></label>
-                                 <TextArea rows={4} className='h-[22px] w-[200px] text-[9px]' placeholder="maxLength is 6" maxLength={50} />
+                                 <TextArea rows={4} className='h-[22px] text-[9px]' placeholder="maxLength is 6" maxLength={50} />
                               </div>
                          </div>
 

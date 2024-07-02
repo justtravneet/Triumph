@@ -8,9 +8,9 @@ const Home = () => {
   return (
     <div>
          <Herothree />
-         <Herobutton />
+         
          <Heroflex />
-         <Herocounter /
+         <Herocounter />
     </div>
   )
 }

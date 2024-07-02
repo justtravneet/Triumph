@@ -21,7 +21,7 @@ const Herobutton = () => {
         <div>
           <Routes>
 
-            <Route path="/" />
+            <Route path="/Indoor" />
             <Route path="/outdoor" element={<Herocards />} />
 
 
