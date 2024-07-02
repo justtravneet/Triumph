@@ -1,11 +1,18 @@
 import React, { useState } from 'react'
 import { Megaphone, AlignJustify, Search, Heart, ShoppingBag,ChevronRight } from "lucide-react"
 import { Link, BrowserRouter, Routes, Route } from "react-router-dom";
-
+import {motion} from "framer-motion"
 
 
 function Heroone() {
-  const [status, setstatus] = useState(true)
+   const [show ,setshow] =useState (false)
+  const showname =() =>{
+    if (show == true){
+      setshow(false)
+    }else{
+      setshow(true)
+    }
+  }
   return (
     <div>
       {/* Exclusive */}
@@ -32,9 +39,9 @@ function Heroone() {
             <div className='menu flex-col'>
               <ul className='flex  gap-[25px]  mr-[0px]  tracking-wider'>
                 <Link to="/"> <li><a href="http://" className='info text-[16px] '> <p>Home</p></a></li></Link>
-                <Link to="/shop"> <li><a href="http://" className='info text-[16px]'> <p>Shop</p></a></li></Link>
-                <Link to="/Contact-us"><li><a href="http://" className='info text-[16px] '> <p>Contact Us</p></a></li></Link>
-                <Link to="/About us"><li><a href="http://" className='info text-[16px] '> <p>About Us</p></a></li></Link>
+                <Link to="/Triumph/shop"> <li><a href="http://" className='info text-[16px]'> <p>Shop</p></a></li></Link>
+                <Link to="/Triumph/Contact-us"><li><a href="http://" className='info text-[16px] '> <p>Contact Us</p></a></li></Link>
+                <Link to="/Triumph/About us"><li><a href="http://" className='info text-[16px] '> <p>About Us</p></a></li></Link>
 
               </ul>
             </div>
@@ -60,7 +67,7 @@ function Heroone() {
                 <ShoppingBag className='w-[25px] sm:w-[30px] lg:w-[35px] xl:w-[45px]' color='#ffffff' strokeWidth={1.5} />
               </div>
 
-              <div className='menuicon ' onClick={() => setstatus(!status)}  >
+              <div className='menuicon ' onClick={showname}   >
                 <AlignJustify size={28} className=' ' color='#ffffff' strokeWidth={1.5} />
               </div>
 
@@ -70,9 +77,22 @@ function Heroone() {
           </div>
         </div>
 
-
-        <div  className=' slidenav-back     xl:px-[100px] 2xl:justify-center ]'>
-          <div className='slidenav bg-white 2xl:justify-center flex flex-col w-[220px] h-[100%] sm:w-[290px] md:w-[320px] '>
+       {
+        show &&
+      
+        <motion.div 
+        
+            initial={{x: -250}}
+             animate={{x: 0}}
+             transition={{
+              
+              duration: 1,
+              x: { duration: 0.5 }
+            }}
+        
+        
+        className='  slidenav  w-[220px] h-[100%] sm:w-[290px] md:w-[320px]  xl:px-[100px] 2xl:justify-center ]'>
+          <div className='2xl:justify-center flex flex-col  '>
             <div>
                  <img src="back.jpg" alt="" />
             </div>
@@ -85,21 +105,21 @@ function Heroone() {
               </div>
 
               <div className='intext px-[20px] sm:px-[30px]   py-[10px] border '>
-                 <Link className='flex justify-between ' to="/shop">
+                 <Link className='flex justify-between ' to="/Triumph/shop">
                     <div><p className=''>Shop</p></div>
                     <div><ChevronRight /></div>
                  </Link>
               </div>
 
               <div className='intext px-[20px] sm:px-[30px]   py-[10px] border '>
-                 <Link className='flex justify-between ' to="/Contact-us">
+                 <Link className='flex justify-between ' to="/Triumph/Contact-us">
                     <div><p className=''>Contact Us</p></div>
                     <div><ChevronRight /></div>
                  </Link>
               </div>
 
               <div className='intext px-[20px] sm:px-[30px]   py-[10px] border '>
-                 <Link className='flex justify-between ' to="/Contact-us">
+                 <Link className='flex justify-between ' to="/Triumph/Contact-us">
                     <div><p className=''>About Us</p></div>
                     <div><ChevronRight /></div>
                  </Link>
@@ -108,7 +128,9 @@ function Heroone() {
            
           </div>
 
-        </div>
+        </motion.div>
+
+       }
 
         {/* <div>
 

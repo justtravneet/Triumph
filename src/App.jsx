@@ -29,8 +29,8 @@ function App() {
                 
                  <Route path="/Triumph" element={ <Home />} />
                  <Route path="/" element={ <Home />} />
-                 <Route path="/shop" element={ <Search />} />
-                 <Route path="/Contact-us" element={ <Contactus />} />
+                 <Route path="/Triumph/shop" element={ <Search />} />
+                 <Route path="Triumph/Contact-us" element={ <Contactus />} />
             </Routes>
          <Herolast />
       </BrowserRouter>

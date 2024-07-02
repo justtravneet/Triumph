@@ -17,7 +17,7 @@ const Slide = () => {
          >
              
              <div>
-                  <img src="back.jpg" alt="" />
+                  <img src="vite.svg" alt="" />
              </div>
 
               <div className='intext px-[20px] sm:px-[30px]  flex justify-between py-[10px] border '>
