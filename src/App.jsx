@@ -7,7 +7,8 @@ import Herolast from './components/Herolast'
 import Contactus from './components/Contactus'
 import Search from './components/Search'
 import Home from './components/Home';
-import Slide from './components/Slide';
+import About from './components/About';
+import Addtocart from './components/Addtocart';
 
 
 
@@ -31,8 +32,10 @@ function App() {
                  <Route path="/" element={ <Home />} />
                  <Route path="/Triumph/shop" element={ <Search />} />
                  <Route path="Triumph/Contact-us" element={ <Contactus />} />
+                 <Route path="Triumph/About-us" element={ <About/>} />
+                 <Route path="Triumph/Add-to-cart" element={ <Addtocart/>} />
             </Routes>
-         <Herolast />
+         {/* <Herolast /> */}
       </BrowserRouter>
      
       

@@ -3,7 +3,7 @@ import React from 'react'
 const Herolast = () => {
   return (
     <div>
-           <div className='footerback flex gap-[5px] justify-between  px-[10px] py-[5px] sm:px-[25px] sm:py-[5px] md:px-[35px] lg:px-[65px] xl:px-[100px] 2xl:justify-center 2xl:gap-[100px] '>
+           <div className='footerback flex gap-[5px] justify-between  px-[10px] py-[5px] sm:px-[25px] sm:py-[5px] md:px-[35px] lg:px-[65px] xl:px-[100px] 2xl:justify-center 2xl:gap-[180px] '>
                   <div className='flex flex-col gap-[10px] py-[15px] lg:py-[20px]'>
                          <div>
                              <img className='w-[80px] sm:w-[110px] md:w-[130px] lg:w-[160px]' src="logo.png" alt="" />
