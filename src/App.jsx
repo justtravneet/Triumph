@@ -9,6 +9,8 @@ import Search from './components/Search'
 import Home from './components/Home';
 import About from './components/About';
 import Addtocart from './components/Addtocart';
+import Wishlist from './components/Wishlist';
+import Productdetails from './components/Productdetails';
 
 
 
@@ -34,8 +36,11 @@ function App() {
                  <Route path="Triumph/Contact-us" element={ <Contactus />} />
                  <Route path="Triumph/About-us" element={ <About/>} />
                  <Route path="Triumph/Add-to-cart" element={ <Addtocart/>} />
+                 <Route path="Triumph/Wishlist" element={ <Wishlist/>} />
+                 <Route path="Triumph/Product-details" element={ <Productdetails/>} />
+
             </Routes>
-         {/* <Herolast /> */}
+         <Herolast />
       </BrowserRouter>
      
       

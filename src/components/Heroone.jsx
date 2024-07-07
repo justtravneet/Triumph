@@ -38,10 +38,10 @@ function Heroone() {
 
             <div className='menu flex-col'>
               <ul className='flex  gap-[25px]  mr-[0px]  tracking-wider'>
-                <Link to="/"> <li><a href="http://" className='info text-[16px] '> <p>Home</p></a></li></Link>
-                <Link to="/Triumph/shop"> <li><a href="http://" className='info text-[16px]'> <p>Shop</p></a></li></Link>
-                <Link to="/Triumph/Contact-us"><li><a href="http://" className='info text-[16px] '> <p>Contact Us</p></a></li></Link>
-                <Link to="/Triumph/About-us"><li><a href="http://" className='info text-[16px] '> <p>About Us</p></a></li></Link>
+                <Link to="/"> <li><a href="http://" className='info text-[16px] '> <p className='infoss'>Home</p></a></li></Link>
+                <Link to="/Triumph/shop"> <li><a href="http://" className='info text-[16px]'> <p className='infoss'>Shop</p></a></li></Link>
+                <Link to="/Triumph/Contact-us"><li><a href="http://" className='info text-[16px] '> <p className='infoss'>Contact Us</p></a></li></Link>
+                <Link to="/Triumph/About-us"><li><a href="http://" className='info text-[16px] '> <p className='infoss'>About Us</p></a></li></Link>
 
               </ul>
             </div>
@@ -61,7 +61,7 @@ function Heroone() {
                 <Link to="/Triumph/shop"> <Search className='w-[25px] sm:w-[30px] lg:w-[35px]' color='#ffffff' strokeWidth={1.5} /> </Link>
               </div>
               <div>
-                <Heart className='w-[25px] sm:w-[30px] lg:w-[35px] xl:w-[45px]' color='#ffffff' strokeWidth={1.5} />
+              <Link to="/Triumph/Wishlist"><Heart className='w-[25px] sm:w-[30px] lg:w-[35px] xl:w-[45px]' color='#ffffff' strokeWidth={1.5} /></Link> 
               </div>
               <div>
               <Link to="/Triumph/Add-to-cart"><ShoppingBag className='w-[25px] sm:w-[30px] lg:w-[35px] xl:w-[45px]' color='#ffffff' strokeWidth={1.5} /></Link>  

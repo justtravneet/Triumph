@@ -2,6 +2,7 @@ import React from 'react'
 import { Input } from 'antd';
 import Herocounter from './Herocounter';
 import { Button } from 'antd';
+import Herocards from './Herocards';
 
 const Contactus = () => {
     const { TextArea } = Input;
@@ -80,7 +81,11 @@ const Contactus = () => {
            
         </div>
 
+        <div className='mt-[20px]'><Herocards /> </div>
+
         <div> <Herocounter /> </div>
+
+
 
         </div>
     )

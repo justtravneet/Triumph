@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, BrowserRouter, Routes, Route } from "react-router-dom";
-const Herocards = () => {
+const Moreproducts = () => {
     const data =[
         {
             name:"Boat Heaphones",
@@ -48,12 +48,8 @@ const Herocards = () => {
         
     ]
   return (
-    <div>
-        <div  className='  px-[10px] py-[5px] sm:px-[25px] sm:py-[5px] md:px-[35px] lg:px-[65px] xl:px-[100px] 2xl:px-[200px] '>
-            <div className='flex justify-center py-[10px]'>
-                <p className='text-[20px]  tracking-wider sm:text-[24px] lg:text-[26px] xl:text-[28px] font-regular'>Indoor Lights</p>
-            </div>
-             <div className='card-backs  flex 2xl:justify-center pl-[5px] py-[20px] gap-[15px]'>
+    <div >
+        <div className='card-backs  flex 2xl:justify-center pl-[5px] py-[20px] gap-[15px]'>
                    {data.map((d) => (
                       <Link to="Triumph/Product-details">
                         <div className='card-conatiner  w-[150px] h-[280px] lg:w-[190px] lg:h-[300px] bg-slate-100 flex flex-col justify-between'>
@@ -84,9 +80,8 @@ const Herocards = () => {
 
                    ))}
              </div>
-        </div>
     </div>
   )
 }
 
-export default Herocards
+export default Moreproducts

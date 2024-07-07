@@ -259,10 +259,25 @@
 .touchcontainer{
   box-shadow: 1px 1px 10px 2px lightblue;
 }
+.filterpanel{
+ 
+  border-right: 1px solid rgba(0, 0, 0, 0.135);
+}
+.responsivesearch {
+  background-color: white;
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.121);
+  border-radius: 10px;
+}
+.desktopsearch {
+  background-color: white;
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.121);
+  border-radius: 10px;
+}
 .filtersres{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.897);
 }
 .filterbutton{
   border: 1px solid rgba(0, 0, 0, 0.276);
@@ -307,4 +322,26 @@
 .cardconatiner-back{
   border-radius: 15px;
   box-shadow: 1px 1px 15px 2px lightblue;
+}
+
+.hoverimages{
+ transform: scale(1);
+ transition: 0.4s;
+}
+.hoverimages:hover{
+  transform: scale(0.9);
+}
+.infoss:hover{
+  color: rgb(140, 255, 0);
+  transition: 0.3s;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selector-image{
+  box-shadow: 1px 2px 25px 1px rgba(173, 216, 230, 0.806);
+  border-radius: 10px;
 }

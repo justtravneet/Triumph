@@ -3,6 +3,7 @@ import { Select, Space } from 'antd';
 import { Input } from 'antd';
 import { Button } from 'antd';
 import { ChevronDown } from 'lucide-react';
+import { Link } from "react-router-dom";
 const Search = () => {
 
     const data = [
@@ -65,7 +66,7 @@ const Search = () => {
         <div className='  px-[10px] py-[5px] sm:px-[25px] sm:py-[5px] md:px-[35px] lg:px-[65px] xl:px-[100px] xl:justify-center flex 2xl:justify-center 2xl:gap-[100px]'>
             <div className='responsivesearch  w-[700px] md:w-[1000px] lg:w-[1200px] h-[auto]  bg-slate-100'>
 
-                <div className='filtersres w-[100%] h-[40px]   bg-slate-400'>
+                <div className='filtersres w-[100%] h-[40px]  '>
                     <div className='px-[2px] flex   justify-around w-[50%] '>
 
                         <div>
@@ -106,13 +107,13 @@ const Search = () => {
                 </div>
 
 
-                <div className='h-[auto] w-[100%] flex justify-center  gap-[25px]  flex-wrap   p-3'>
+                <div className='search-card-back h-[auto] w-[100%] flex justify-center  gap-[15px]  flex-wrap   p-3'>
                     {data.map((d) => (
-
+                     <Link to="Triumph/Product-details">
                         <div className='cardconatiner-back  w-[150px] h-[auto] '>
                             <div className='card-image-back w-[150px] h-[50px]'>
                                 <div className='card-images w-[150px] h-[50px]'>
-                                    <img className='cart-images' src={d.image} alt="" />
+                                    <img className='hoverimages cart-images' src={d.image} alt="" />
                                 </div>
                             </div>
                             <div className='info-back w-[150px] h-[90px] mt-[110px]   flex justify-between flex-col '>
@@ -138,7 +139,7 @@ const Search = () => {
 
                         </div>
 
-
+                     </Link>
 
                     ))}
 
@@ -154,9 +155,9 @@ const Search = () => {
 
 
 
-            <div className='desktopsearch w-[700px] md:w-[1000px] lg:w-[1200px] h-[auto] flex bg-slate-400'>
+            <div className='desktopsearch w-[700px] md:w-[1000px] lg:w-[1200px] h-[auto] flex '>
 
-                <div className='w-[30%] sm:w-[20%] md:w-[20%] h-[auto] bg-slate-500 px-[8px] py-[5px] flex flex-col gap-[10px]'>
+                <div className='filterpanel w-[30%] sm:w-[20%] md:w-[20%] h-[auto]  px-[8px] py-[5px] flex flex-col gap-[10px]'>
                     <div>
                         <Select
                             defaultValue="Color"
@@ -187,7 +188,7 @@ const Search = () => {
 
                 </div>
 
-                <div className=' w-[100%] bg-slate-200 h-[auto]'>
+                <div className=' w-[100%] h-[auto]'>
                     <div className='px-[10px] py-[5px]'>
                         <Input placeholder="Search For Lights" variant="filled" />
                     </div>
@@ -197,11 +198,11 @@ const Search = () => {
 
                         <div className=' justify-center w-[100%] h-[100%] flex  flex-wrap gap-[25px] px-[10px] py-[5px] '>
                             {data.map((d) => (
-
+                             <Link to="Triumph/Product-details">
                                 <div className='cardconatiner-back  w-[150px] h-[290px] '>
                                     <div className='card-image-back w-[150px] h-[50px]'>
                                         <div className='card-images w-[150px] h-[50px]'>
-                                            <img className='cart-images' src={d.image} alt="" />
+                                            <img className='hoverimages cart-images' src={d.image} alt="" />
                                         </div>
                                     </div>
                                     <div className='info-back w-[150px] h-[100px] mt-[110px]   flex justify-between flex-col '>
@@ -220,14 +221,14 @@ const Search = () => {
 
                                     </div>
                                     <div className='h-[30px] w-[150px] '>
-                                        <Button className='button w-[100%] h-[100%] rounded-none' type="primary"><p className='text-[13px]'>Add To Cart</p></Button>
+                                        <Button className='button w-[100%] h-[100%] rounded-none' type="primary"><p className='text-[13px]'>View All</p></Button>
                                     </div>
 
 
 
                                 </div>
 
-
+                              </Link>
 
                             ))}
                         </div>
