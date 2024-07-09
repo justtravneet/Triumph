@@ -2,8 +2,7 @@ import React from 'react'
 import { Select, Space } from 'antd';
 import { Input } from 'antd';
 import { Button } from 'antd';
-import { ChevronDown } from 'lucide-react';
-import { Link } from "react-router-dom";
+
 const Search = () => {
 
     const data = [
@@ -109,7 +108,7 @@ const Search = () => {
 
                 <div className='search-card-back h-[auto] w-[100%] flex justify-center  gap-[15px]  flex-wrap   p-3'>
                     {data.map((d) => (
-                     <Link to="Triumph/Product-details">
+                   
                         <div className='cardconatiner-back  w-[150px] h-[auto] '>
                             <div className='card-image-back w-[150px] h-[50px]'>
                                 <div className='card-images w-[150px] h-[50px]'>
@@ -139,7 +138,7 @@ const Search = () => {
 
                         </div>
 
-                     </Link>
+                  
 
                     ))}
 
@@ -198,7 +197,7 @@ const Search = () => {
 
                         <div className=' justify-center w-[100%] h-[100%] flex  flex-wrap gap-[25px] px-[10px] py-[5px] '>
                             {data.map((d) => (
-                             <Link to="Triumph/Product-details">
+                            
                                 <div className='cardconatiner-back  w-[150px] h-[290px] '>
                                     <div className='card-image-back w-[150px] h-[50px]'>
                                         <div className='card-images w-[150px] h-[50px]'>
@@ -228,7 +227,7 @@ const Search = () => {
 
                                 </div>
 
-                              </Link>
+                            
 
                             ))}
                         </div>

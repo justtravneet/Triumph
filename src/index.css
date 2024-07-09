@@ -130,6 +130,7 @@
   font-size: 12px;
   color: rgb(255, 255, 255);
 }
+
 .navback{
   background-color: #0554F2;
 }
@@ -344,4 +345,8 @@
 .selector-image{
   box-shadow: 1px 2px 25px 1px rgba(173, 216, 230, 0.806);
   border-radius: 10px;
+}
+.bulb:hover {
+
+  transform: 0.3s;
 }

@@ -6,8 +6,16 @@ const About = () => {
     return (
         <div>
             <div className=' flex justify-center  px-[10px] sm:px-[25px]  md:px-[35px] lg:px-[65px] xl:px-[100px] 2xl:justify-center 2xl:gap-[100px]  '>
-                 <div className='py-[20px] md:py-[30px]'>
-                      <img className='w-[80px]  md:w-[100px] lg:w-[130px]' src="https://static.vecteezy.com/system/resources/previews/013/473/464/original/bulb-3d-render-png.png" alt="" />
+                 <div className='py-[20px] md:py-[20px]'>
+                      <motion.img 
+                      animate={{y:[-10,0,-10]}}
+                      transition={{
+                        times:[0,1],
+                        duration:[5],
+                        repeat:Infinity,
+                        type:"keyframes"
+                      }} 
+                      className='w-[90px]  md:w-[100px] lg:w-[130px]' src="https://static.vecteezy.com/system/resources/previews/013/473/464/original/bulb-3d-render-png.png" alt="" />
                  </div>
             </div>
             <div className=' flex justify-center  px-[10px] sm:px-[25px]  md:px-[35px] lg:px-[65px] xl:px-[100px] 2xl:justify-center 2xl:gap-[100px]  '>
